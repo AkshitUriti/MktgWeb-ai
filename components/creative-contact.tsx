@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { MapPin, Phone, Mail, Send, ChevronRight } from "lucide-react"
+import { MapPin, Phone, Mail, ChevronRight } from "lucide-react"
 
 export default function CreativeContact() {
   const [activeStep, setActiveStep] = useState(0)
