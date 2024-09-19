@@ -52,7 +52,15 @@ export function OurTeamComponent() {
   )
 }
 
-function TeamMemberCard({ name, role, bio, image, index }) {
+interface TeamMemberProps {
+  name: string;
+  role: string;
+  bio: string;
+  image: string;
+  index: number;
+}
+
+function TeamMemberCard({ name, role, bio, image, index }: TeamMemberProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
