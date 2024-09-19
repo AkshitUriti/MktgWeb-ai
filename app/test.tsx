@@ -1,14 +1,7 @@
 'use client'
 
-import Navbar from './navbar'
-import HeroSection from './hero-section'
-import WhyChooseUsSection from './why-choose-us-section'
-import ServicesOverview from './services-overview'
-import OurProcess from './our-process'
-import PricingPlans from './pricing-plans'
-import Footer from './footer'
 
-export function Page() {
+export default function Test() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-indigo-800 to-blue-900">
       <Navbar />
